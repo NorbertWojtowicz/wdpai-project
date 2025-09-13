@@ -39,8 +39,8 @@ Aplikacja webowa dla wędkarzy zbudowana w **czystym PHP+JS** i **PostgreSQL**
 │  
 ├── api/  
 │ ├── auth/  
-│ │ ├── login.php
-│ │ ├── logout.php
+│ │ ├── login.php<br />
+│ │ ├── logout.php<br />
 │ │ ├── me.php  
 │ │ └── register.php  
 │ ├── fish/  
@@ -50,7 +50,7 @@ Aplikacja webowa dla wędkarzy zbudowana w **czystym PHP+JS** i **PostgreSQL**
 │ ├── spots/  
 │ │ ├── add.php    
 │ │ ├── popular.php  
-│ │ └── peruser.php
+│ │ └── peruser.php<br />
 │ ├── user/  
 │ │ └── profile.php  
 ├── config/  
@@ -62,26 +62,26 @@ Aplikacja webowa dla wędkarzy zbudowana w **czystym PHP+JS** i **PostgreSQL**
 │ ├── login.html  
 │ ├── dashboard.html  
 │ ├── spots.html  
-│ ├── catches.html 
-│ ├── profile.html 
-│ ├── register.html
+│ ├── catches.html <br />
+│ ├── profile.html <br />
+│ ├── register.html<br />
 │ ├── new-spot-form.html  
 │ ├── new-catch-form.html  
 │ └── js/  
 │ ├── api.js  
 │ ├── auth.js  
-│ ├── dashboard.js
+│ ├── dashboard.js<br />
 │ ├── main.js  
 │ ├── fishes.js  
 │ ├── new-catch-form.js  
 │ ├── new-spot-form.js  
-│ ├── profile.js 
+│ ├── profile.js <br />
 │ ├── nav-renderer.js  
 │ └── spots.js  
 │ └── images/  
-│ ├── mainbg.jpg
+│ ├── mainbg.jpg<br />
 │ ├── signupbg.jpg  
-│ └──-- spots/ (zdjecia lokacji)
+│ └──-- spots/ (zdjecia lokacji)<br />
 │ └──-- fishes/ (zdjęcia ryb)
   
 ---
