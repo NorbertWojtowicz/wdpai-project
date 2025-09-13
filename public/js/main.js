@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', async () => {
           <div class="catch-card">
             <div class="catch-header">
                 <div class="angler-info">
-                    <img src="https://dummyimage.com/32x32/4285f4/ffffff?text=MR" alt="${f.username}" referrerpolicy="no-referrer">
+                    <img src="images/user.png" alt="${f.username}" referrerpolicy="no-referrer">
                     <div>
                         <h4>${f.username}</h4>
                         <span class="angler-level">${f.role === 'user' ? 'Angler' : 'Admin'}</span>

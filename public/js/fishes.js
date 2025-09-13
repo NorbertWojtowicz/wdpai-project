@@ -20,7 +20,7 @@ async function displaySpots(catches_category) {
             <div class="catch-card">
                 <div class="catch-header">
                     <div class="angler-info">
-                        <img src="images/fishes/fish${Math.floor(Math.random() * 8) + 1}.jpg" alt="${f.username}" referrerpolicy="no-referrer">
+                        <img src="images/user.png" alt="${f.username}" referrerpolicy="no-referrer">
                         <div>
                             <h4>${f.username}</h4>
                             <span class="angler-level">${f.role === 'user' ? 'Angler' : 'Admin'}</span>
