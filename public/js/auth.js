@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
-    document.querySelector('.login-form').addEventListener('submit', async e => {
+    document.getElementById('loginForm').addEventListener('submit', async e => {
         e.preventDefault();
         const username = document.getElementById('login-username').value;
         const password = document.getElementById('login-password').value;
