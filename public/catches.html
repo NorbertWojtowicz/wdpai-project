@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FishingBuddy - Your ultimate fishing companion</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/spots.css">
+    <script src="https://kit.fontawesome.com/70624bebdf.js" crossorigin="anonymous"></script>
+    <script src="js/api.js" defer></script>
+    <script src="js/spots.js" defer></script>
+    <script src="js/fishes.js" defer></script>
+    <script src="js/nav-renderer.js" defer></script>
+</head>
+<body>
+
+<header class="header">
+    <nav class="navbar">
+        <div class="nav-brand-menu">
+            <div class="nav-brand">
+                <i class="fa-solid fa fa-fish"></i>
+                <span class="brand-text">FishingBuddy</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="spots.html" class="nav-link">Spots</a></li>
+                <li><a href="#" class="nav-link active">Catches</a></li>
+                <li><a href="profile.html" class="nav-link">Profile</a></li>
+            </ul>
+        </div>
+        <div class="nav-actions">
+            <div id="authBar"></div>
+        </div>
+    </nav>
+</header>
+
+<!-- Main Content -->
+<main class="main">
+    <div class="container">
+        <div class="page-header">
+            <h1 class="page-title">Catches</h1>
+            <a class="btn btn-primary" href="new-catch-form.html">
+                <i class="fa-solid fa fa-plus"></i>
+                Log New Catch
+            </a>
+        </div>
+
+        <div class="tabs">
+            <button class="tab-button active">My Catches</button>
+            <button class="tab-button">Community</button>
+        </div>
+
+        <section class="recent-catches">
+            <h2 class="section-title">Your Catches</h2>
+            <div class="catches-grid"></div>
+        </section>
+    </div>
+</main>
+
+<footer class="footer">
+    <div class="container">
+        <div class="footer-content">
+            <div class="footer-section">
+                <div class="footer-brand">
+                    <i class="fa-solid fa fa-fish"></i>
+                    <span class="brand-text">FishingBuddy</span>
+                </div>
+                <p>Your ultimate fishing companion for discovering spots and sharing experiences.</p>
+            </div>
+            <div class="footer-section">
+                <h4>Features</h4>
+                <ul>
+                    <li><a href="spots.html">Spot Mapping</a></li>
+                    <li><a href="catches.html">Catch Logging</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Company</h4>
+                <ul>
+                    <li><a href="#">Terms of Service</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 FishingBuddy. All rights reserved.</p>
+        </div>
+    </div>
+</footer>
+</body>
+</html>

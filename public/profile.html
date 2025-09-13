@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FishingBuddy - Mike Anderson Profile</title>
+    <script src="https://kit.fontawesome.com/70624bebdf.js" crossorigin="anonymous"></script>
+    <script src="js/api.js" defer></script>
+    <script src="js/nav-renderer.js" defer></script>
+    <script src="js/profile.js" defer></script>
+    <link rel="stylesheet" href="css/profile.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+<header class="header">
+    <nav class="navbar">
+        <div class="nav-brand-menu">
+            <div class="nav-brand">
+                <i class="fa-solid fa fa-fish"></i>
+                <span class="brand-text">FishingBuddy</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="spots.html" class="nav-link">Spots</a></li>
+                <li><a href="catches.html" class="nav-link">Catches</a></li>
+                <li><a href="#" class="nav-link active">Profile</a></li>
+            </ul>
+        </div>
+        <div class="nav-actions">
+            <div id="authBar"></div>
+        </div>
+    </nav>
+</header>
+
+<main class="main-content">
+    <section class="profile-header">
+        <div class="profile-info">
+            <div class="profile-avatar-large">
+                <i class="fa-solid fa fa-user" style="font-size: 2rem"></i>
+            </div>
+            <div class="profile-details"></div>
+        </div>
+    </section>
+
+    <section class="stats-section">
+
+    </section>
+
+    <section class="recent-catches">
+        <h2 class="section-title">Recent Catches</h2>
+        <div class="catches-grid"></div>
+    </section>
+</main>
+
+<footer class="footer">
+    <div class="container">
+        <div class="footer-content">
+            <div class="footer-section">
+                <div class="footer-brand">
+                    <i class="fa-solid fa fa-fish"></i>
+                    <span class="brand-text">FishingBuddy</span>
+                </div>
+                <p>Your ultimate fishing companion for discovering spots and sharing experiences.</p>
+            </div>
+            <div class="footer-section">
+                <h4>Features</h4>
+                <ul>
+                    <li><a href="spots.html">Spot Mapping</a></li>
+                    <li><a href="catches.html">Catch Logging</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Company</h4>
+                <ul>
+                    <li><a href="#">Terms of Service</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 FishingBuddy. All rights reserved.</p>
+        </div>
+    </div>
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FishingBuddy - Your ultimate fishing companion</title>
+    <link rel="stylesheet" href="css/main.css">
+    <script src="https://kit.fontawesome.com/70624bebdf.js" crossorigin="anonymous"></script>
+    <script src="js/api.js" defer></script>
+    <script src="js/main.js" defer></script>
+    <script src="js/nav-renderer.js" defer></script>
+</head>
+<body>
+
+<header class="header">
+    <nav class="navbar">
+        <div class="nav-brand-menu">
+            <div class="nav-brand">
+                <i class="fa-solid fa fa-fish"></i>
+                <span class="brand-text">FishingBuddy</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#" class="nav-link active">Home</a></li>
+                <li><a href="spots.html" class="nav-link">Spots</a></li>
+                <li><a href="catches.html" class="nav-link">Catches</a></li>
+                <li><a href="profile.html" class="nav-link">Profile</a></li>
+            </ul>
+        </div>
+        <div class="nav-actions">
+            <div id="authBar"></div>
+        </div>
+    </nav>
+</header>
+
+<section class="hero">
+    <div class="hero-image">
+        <img src="images/mainbg.jpg" alt="Sunset fishing scene" referrerpolicy="no-referrer">
+    </div>
+</section>
+
+<section class="features">
+    <div class="container">
+        <div class="features-grid">
+            <div class="feature-card">
+                <div class="feature-icon">
+                    <i class="fa-solid fa fa-map"></i>
+                </div>
+                <h3>Spot Mapping</h3>
+                <p>Mark and discover prime fishing locations with detailed information about species and conditions.</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">
+                    <i class="fa-solid fa fa-trophy"></i>
+                </div>
+                <h3>Catch Logging</h3>
+                <p>Record your catches with photos, weights, and species information to track your progress.</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">
+                    <i class="fa-solid fa fa-users"></i>
+                </div>
+                <h3>Community</h3>
+                <p>Connect with fellow anglers, share catches, and your favourite spots.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="recent-catches">
+    <div class="container">
+        <h2>Recent Catches</h2>
+        <div class="catches-grid"></div>
+    </div>
+</section>
+
+<section class="popular-spots">
+    <div class="container">
+        <h2>Popular Fishing Spots</h2>
+        <div class="spots-grid"></div>
+    </div>
+</section>
+
+<section class="cta">
+    <div class="container">
+        <h2>Ready to track your catches?</h2>
+        <p>Join thousands of anglers who are sharing their catches, and connecting with fellow fishing enthusiasts.</p>
+        <a class="cta-button" href="catches.html">Share Catch</a>
+    </div>
+</section>
+
+
+<footer class="footer">
+    <div class="container">
+        <div class="footer-content">
+            <div class="footer-section">
+                <div class="footer-brand">
+                    <i class="fa-solid fa fa-fish"></i>
+                    <span class="brand-text">FishingBuddy</span>
+                </div>
+                <p>Your ultimate fishing companion for discovering spots and sharing experiences.</p>
+            </div>
+            <div class="footer-section">
+                <h4>Features</h4>
+                <ul>
+                    <li><a href="spots.html">Spot Mapping</a></li>
+                    <li><a href="catches.html">Catch Logging</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Company</h4>
+                <ul>
+                    <li><a href="#">Terms of Service</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 FishingBuddy. All rights reserved.</p>
+        </div>
+    </div>
+</footer>
+
+</body>
+</html>

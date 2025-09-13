@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FishingBuddy - Your ultimate fishing companion</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/signup.css">
+    <script src="https://kit.fontawesome.com/70624bebdf.js" crossorigin="anonymous"></script>
+    <script src="js/api.js" defer></script>
+    <script src="js/main.js" defer></script>
+    <script src="js/new-spot-form.js" defer></script>
+    <script src="js/nav-renderer.js" defer></script>
+</head>
+<body>
+
+<header class="header">
+    <nav class="navbar">
+        <div class="nav-brand-menu">
+            <div class="nav-brand">
+                <i class="fa-solid fa fa-fish"></i>
+                <span class="brand-text">FishingBuddy</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="spots.html" class="nav-link">Spots</a></li>
+                <li><a href="catches.html" class="nav-link">Catches</a></li>
+                <li><a href="profile.html" class="nav-link">Profile</a></li>
+            </ul>
+        </div>
+        <div class="nav-actions">
+            <div id="authBar"></div>
+        </div>
+    </nav>
+</header>
+
+<main>
+    <div class="form-container">
+        <form id="new-spot-form" class="login-form">
+            <h1>Add new spot!</h1>
+            <div class="form-group">
+                <label for="new-spot-name">Spot name</label>
+                <div class="input-wrapper">
+                    <input type="text" id="new-spot-name" name="new-spot-name" placeholder="Spot name" required>
+                </div>
+
+                <label for="new-spot-city">Spot City</label>
+                <div class="input-wrapper">
+                    <input type="text" id="new-spot-city" name="new-spot-city" placeholder="Spot city" required>
+                </div>
+
+                <label for="new-spot-country">Spot Country</label>
+                <div class="input-wrapper">
+                    <input type="text" id="new-spot-country" name="new-spot-country" placeholder="Spot country" required>
+                </div>
+
+                <button type="submit" id="new-spot-btn" class="sign-in-btn">Add</button>
+        </form>
+    </div>
+
+</main>
+<footer class="footer">
+    <div class="container">
+        <div class="footer-content">
+            <div class="footer-section">
+                <div class="footer-brand">
+                    <i class="fa-solid fa fa-fish"></i>
+                    <span class="brand-text">FishingBuddy</span>
+                </div>
+                <p>Your ultimate fishing companion for discovering spots and sharing experiences.</p>
+            </div>
+            <div class="footer-section">
+                <h4>Features</h4>
+                <ul>
+                    <li><a href="spots.html">Spot Mapping</a></li>
+                    <li><a href="catches.html">Catch Logging</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Company</h4>
+                <ul>
+                    <li><a href="#">Terms of Service</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 FishingBuddy. All rights reserved.</p>
+        </div>
+    </div>
+</footer>
+
+</body>
+</html>
